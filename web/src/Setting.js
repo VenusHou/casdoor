@@ -60,6 +60,7 @@ export const Countries = [
   {label: "فارسی", key: "fa", country: "IR", alt: "فارسی"},
   {label: "Čeština", key: "cs", country: "CZ", alt: "Čeština"},
   {label: "Slovenčina", key: "sk", country: "SK", alt: "Slovenčina"},
+  {label: "Azərbaycan dili", key: "az", country: "AZ", alt: "Azərbaycan dili"},
 ];
 
 export function getThemeData(organization, application) {
@@ -156,7 +157,7 @@ export const OtherProviderInfo = {
       url: "https://control.msg91.com/app/",
     },
     "OSON SMS": {
-      logo: "https://osonsms.com/images/osonsms-logo.svg",
+      logo: `${StaticBaseUrl}/img/social_osonsms.svg`,
       url: "https://osonsms.com/",
     },
     "Custom HTTP SMS": {
@@ -204,7 +205,7 @@ export const OtherProviderInfo = {
       url: "https://aws.amazon.com/s3",
     },
     "MinIO": {
-      logo: "https://min.io/resources/img/logo.svg",
+      logo: `${StaticBaseUrl}/img/social_minio.png`,
       url: "https://min.io/",
     },
     "Aliyun OSS": {
